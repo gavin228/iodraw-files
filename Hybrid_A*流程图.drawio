@@ -1,47 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.6">
   <diagram name="第 1 页" id="L52IQWbJrtUkQ-SmVX1o">
-    <mxGraphModel dx="2708" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3540" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-3" edge="1" parent="1" source="ZlVH6u4ZtnfOgwIvqU8g-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZlVH6u4ZtnfOgwIvqU8g-12" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="365.25" y="210" as="targetPoint" />
+            <mxPoint x="465.25" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="开始" vertex="1">
-          <mxGeometry height="60" width="120" x="300.75" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="400.75" y="160" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-6" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="1. 将起点和终点构造成StateNode结构体形式；&lt;div&gt;2. 计算起点到终点的代价；&lt;/div&gt;&lt;div&gt;3. 将起点插入到openset；&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="153" x="284.25" y="440" as="geometry" />
+          <mxGeometry height="80" width="153" x="384.25" y="500" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-41" edge="1" parent="1" source="ZlVH6u4ZtnfOgwIvqU8g-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ZlVH6u4ZtnfOgwIvqU8g-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="361" y="790" />
-              <mxPoint x="524" y="790" />
-              <mxPoint x="524" y="70" />
-              <mxPoint x="801" y="70" />
+              <mxPoint x="461" y="850" />
+              <mxPoint x="624" y="850" />
+              <mxPoint x="624" y="130" />
+              <mxPoint x="901" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="弹出openset中第一个节点当做当前节点，做以下检测和计算：" vertex="1">
-          <mxGeometry height="60" width="136" x="292.75" y="680" as="geometry" />
+          <mxGeometry height="60" width="136" x="392.75" y="740" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-14" edge="1" parent="1" source="ZlVH6u4ZtnfOgwIvqU8g-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ZlVH6u4ZtnfOgwIvqU8g-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. 按照高分辨率构建障碍物地图，用于碰撞检测；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. 按照低分辨率构建节点地图，用于存放所有节点；&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="170" x="275.75" y="310" as="geometry" />
+          <mxGeometry height="80" width="170" x="375.75" y="370" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-13" edge="1" parent="1" source="ZlVH6u4ZtnfOgwIvqU8g-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZlVH6u4ZtnfOgwIvqU8g-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-12" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. 初始化起点终点；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;构造HybridAStar类；&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="153" x="284.25" y="210" as="geometry" />
+          <mxGeometry height="50" width="153" x="384.25" y="270" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-40" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="690" width="362" x="620" y="110" as="geometry" />
+          <mxGeometry height="690" width="362" x="720" y="170" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-35" parent="ZlVH6u4ZtnfOgwIvqU8g-40" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="690" width="362" as="geometry" />
@@ -124,14 +124,29 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-122" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZlVH6u4ZtnfOgwIvqU8g-121" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499.9992962962966" y="662.5185185185185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-123" connectable="0" parent="ZlVH6u4ZtnfOgwIvqU8g-122" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.5189" y="-1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-124" connectable="0" parent="ZlVH6u4ZtnfOgwIvqU8g-122" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.0774" y="3" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-42" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="openset不为空" vertex="1">
-          <mxGeometry height="65" width="142.87" x="289.31" y="570" as="geometry" />
+          <mxGeometry height="65" width="142.87" x="389.31" y="630" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-43" edge="1" parent="1" source="ZlVH6u4ZtnfOgwIvqU8g-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZlVH6u4ZtnfOgwIvqU8g-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-116" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="770" width="898" x="1110" y="110" as="geometry" />
+          <mxGeometry height="770" width="898" x="1210" y="170" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-118" edge="1" parent="ZlVH6u4ZtnfOgwIvqU8g-116" source="ZlVH6u4ZtnfOgwIvqU8g-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
@@ -203,7 +218,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-100" parent="ZlVH6u4ZtnfOgwIvqU8g-116" style="whiteSpace=wrap;html=1;rounded=1;align=left;" value="删掉该邻居节点" vertex="1">
-          <mxGeometry height="70" width="235" x="574.5" y="540" as="geometry" />
+          <mxGeometry height="70" width="115.5" x="634.25" y="540" as="geometry" />
         </mxCell>
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-104" edge="1" parent="ZlVH6u4ZtnfOgwIvqU8g-116" source="ZlVH6u4ZtnfOgwIvqU8g-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZlVH6u4ZtnfOgwIvqU8g-84">
           <mxGeometry relative="1" as="geometry" />
@@ -239,13 +254,27 @@
         <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-117" edge="1" parent="1" source="ZlVH6u4ZtnfOgwIvqU8g-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ZlVH6u4ZtnfOgwIvqU8g-47">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="801" y="850" />
-              <mxPoint x="1046" y="850" />
-              <mxPoint x="1046" y="70" />
-              <mxPoint x="1559" y="70" />
+              <mxPoint x="901" y="910" />
+              <mxPoint x="1146" y="910" />
+              <mxPoint x="1146" y="130" />
+              <mxPoint x="1659" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-127" edge="1" parent="1" source="ZlVH6u4ZtnfOgwIvqU8g-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZlVH6u4ZtnfOgwIvqU8g-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-121" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="从后向前遍历整个节点地图，从而拿到整条搜索出的路径" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlVH6u4ZtnfOgwIvqU8g-125" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="结束" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="850" as="geometry" />
+        </mxCell>
+        <UserObject label="https://github.com/zm0612/Hybrid_A_Star" link="https://github.com/zm0612/Hybrid_A_Star" id="ZlVH6u4ZtnfOgwIvqU8g-129">
+          <mxCell parent="1" style="text;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="40" width="260" x="50" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
