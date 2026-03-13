@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="pRRy_8ISbW51fqeGlbTH">
-    <mxGraphModel dx="967" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3009" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,7 +96,7 @@
           <mxGeometry height="270" width="10" x="105" y="990" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-141" parent="psfISVITExRORLoa6FlI-77" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="154" width="10" x="105" y="1626" as="geometry" />
+          <mxGeometry height="154" width="10" x="105" y="1662" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-79" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -135,7 +135,7 @@
           <mxGeometry height="110" width="10" x="115" y="680" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-135" parent="psfISVITExRORLoa6FlI-83" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="253" width="10" x="115" y="1347" as="geometry" />
+          <mxGeometry height="303" width="10" x="115" y="1347" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-85" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -339,7 +339,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="psfISVITExRORLoa6FlI-129" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="psfISVITExRORLoa6FlI-118" value="&lt;div&gt;handle_accepted() -&amp;gt; 异步调用work()：&lt;/div&gt;&lt;div&gt;1. 保存传入的goal句柄；&lt;/div&gt;&lt;div&gt;2. 进入while循环：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;a. 调用用户自定义的执行函数execute_callback_()；&lt;/div&gt;">
+        <mxCell id="psfISVITExRORLoa6FlI-129" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="psfISVITExRORLoa6FlI-118" value="&lt;div&gt;handle_accepted() -&amp;gt; 异步调用work()：&lt;/div&gt;&lt;div&gt;1. 保存传入的goal句柄；&lt;/div&gt;&lt;div&gt;2. 进入while()：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;a. 调用用户自定义的执行函数execute_callback_()；&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -349,9 +349,6 @@
             <mxPoint x="1136" y="1310" as="sourcePoint" />
             <mxPoint x="1136" y="1340" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="psfISVITExRORLoa6FlI-130" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="50" width="10" x="159" y="1240" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-131" edge="1" parent="1" source="psfISVITExRORLoa6FlI-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="psfISVITExRORLoa6FlI-133">
           <mxGeometry relative="1" as="geometry">
@@ -414,12 +411,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="psfISVITExRORLoa6FlI-142" edge="1" parent="1" source="psfISVITExRORLoa6FlI-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="psfISVITExRORLoa6FlI-141">
+        <mxCell id="psfISVITExRORLoa6FlI-142" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="psfISVITExRORLoa6FlI-141">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1030" y="1790" />
-              <mxPoint x="1030" y="1790" />
+              <mxPoint x="1030" y="1825" />
+              <mxPoint x="1030" y="1825" />
             </Array>
+            <mxPoint x="710" y="1825.0588235294117" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-143" connectable="0" parent="psfISVITExRORLoa6FlI-142" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="以成功为例" vertex="1">
@@ -428,16 +426,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-144" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div data-page-id=&quot;YSJqdaEsJoQAVGxiDp5cjCuWn8c&quot; data-lark-html-role=&quot;root&quot; data-docx-has-block-data=&quot;false&quot;&gt;&lt;div class=&quot;old-record-id-HaLLdH0dGotBJBxauV0curGCn9g&quot; style=&quot;white-space: pre;&quot;&gt;rclcpp_action::ServerGoalHandle&lt;/div&gt;&lt;/div&gt;&lt;span data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;YSJqdaEsJoQAVGxiDp5cjCuWn8c&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;lifecycle_manager_navigation&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+s&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7272249392416423940&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;055e24b5-1c03-444c-a45d-c66e4763ca64&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:true,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:38,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:321,&amp;quot;end&amp;quot;:349},&amp;quot;recordId&amp;quot;:&amp;quot;HaLLdH0dGotBJBxauV0curGCn9g&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot; data-lark-record-format=&quot;docx/text&quot; class=&quot;lark-record-clipboard&quot;&gt;&lt;/span&gt;&lt;div&gt;类&lt;/div&gt;" vertex="1">
-          <mxGeometry height="430" width="190" x="1380" y="1754" as="geometry" />
-        </mxCell>
-        <mxCell id="psfISVITExRORLoa6FlI-147" parent="psfISVITExRORLoa6FlI-144" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="106.5" width="10" x="90" y="63.5" as="geometry" />
+          <mxGeometry height="430" width="190" x="1380" y="1788" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-148" edge="1" parent="1" source="psfISVITExRORLoa6FlI-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="psfISVITExRORLoa6FlI-147">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1280" y="1840" />
-              <mxPoint x="1280" y="1840" />
+              <mxPoint x="1280" y="1876" />
+              <mxPoint x="1280" y="1876" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -449,17 +444,36 @@
         <mxCell id="psfISVITExRORLoa6FlI-150" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1280" y="1900" />
-              <mxPoint x="1280" y="1900" />
+              <mxPoint x="1280" y="1936" />
+              <mxPoint x="1280" y="1936" />
             </Array>
-            <mxPoint x="1136" y="1900" as="sourcePoint" />
-            <mxPoint x="1470" y="1900" as="targetPoint" />
+            <mxPoint x="1136" y="1936" as="sourcePoint" />
+            <mxPoint x="1470" y="1936" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-151" connectable="0" parent="psfISVITExRORLoa6FlI-150" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="将当前句柄current_handle_置空" vertex="1">
           <mxGeometry relative="1" x="-0.2113" y="1" as="geometry">
             <mxPoint x="22" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-147" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="106.5" width="10" x="1470" y="1853.5" as="geometry" />
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-152" edge="1" parent="1" source="psfISVITExRORLoa6FlI-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="psfISVITExRORLoa6FlI-135">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="1760" />
+              <mxPoint x="940" y="1760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-153" connectable="0" parent="psfISVITExRORLoa6FlI-152" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="中止所有节点" vertex="1">
+          <mxGeometry relative="1" x="0.0251" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-154" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="响应请求" vertex="1">
+          <mxGeometry height="969" width="1650" x="630" y="1010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
