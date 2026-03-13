@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="pRRy_8ISbW51fqeGlbTH">
-    <mxGraphModel dx="1354" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1693" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,7 +211,7 @@
           <mxGeometry height="80" width="10" x="3735" y="1560" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-70" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div data-page-id=&quot;YSJqdaEsJoQAVGxiDp5cjCuWn8c&quot; data-lark-html-role=&quot;root&quot; data-docx-has-block-data=&quot;false&quot;&gt;&lt;div class=&quot;old-record-id-HaLLdH0dGotBJBxauV0curGCn9g&quot; style=&quot;white-space: pre;&quot;&gt;bt_navigator&lt;/div&gt;&lt;/div&gt;&lt;span data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;YSJqdaEsJoQAVGxiDp5cjCuWn8c&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;lifecycle_manager_navigation&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+s&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7272249392416423940&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;055e24b5-1c03-444c-a45d-c66e4763ca64&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:true,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:38,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:321,&amp;quot;end&amp;quot;:349},&amp;quot;recordId&amp;quot;:&amp;quot;HaLLdH0dGotBJBxauV0curGCn9g&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot; data-lark-record-format=&quot;docx/text&quot; class=&quot;lark-record-clipboard&quot;&gt;&lt;/span&gt;&lt;div&gt;行为树节点（生命周期节点）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="1450" width="170" x="620" y="144" as="geometry" />
+          <mxGeometry height="1471" width="170" x="620" y="144" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-71" parent="psfISVITExRORLoa6FlI-70" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="710" width="10" x="80" y="100" as="geometry" />
@@ -220,7 +220,10 @@
           <mxGeometry height="50" width="10" x="80" y="896" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-112" parent="psfISVITExRORLoa6FlI-70" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="75" width="10" x="80" y="975" as="geometry" />
+          <mxGeometry height="65" width="10" x="80" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-133" parent="psfISVITExRORLoa6FlI-70" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="291" width="10" x="80" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-72" edge="1" parent="1" source="psfISVITExRORLoa6FlI-6" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -270,7 +273,7 @@
           <mxGeometry height="1430" width="220" x="1021" y="144" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-118" parent="psfISVITExRORLoa6FlI-77" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="230" width="10" x="105" y="990" as="geometry" />
+          <mxGeometry height="270" width="10" x="105" y="990" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-79" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -303,10 +306,13 @@
           <mxGeometry height="170" width="10" x="1126" y="480" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-83" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;div data-page-id=&quot;YSJqdaEsJoQAVGxiDp5cjCuWn8c&quot; data-lark-html-role=&quot;root&quot; data-docx-has-block-data=&quot;false&quot;&gt;&lt;div class=&quot;old-record-id-HaLLdH0dGotBJBxauV0curGCn9g&quot; style=&quot;white-space: pre;&quot;&gt;nav2_behavior_tree::BehaviorTreeEngine&lt;/div&gt;&lt;/div&gt;&lt;span data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;YSJqdaEsJoQAVGxiDp5cjCuWn8c&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;lifecycle_manager_navigation&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+s&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7272249392416423940&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;055e24b5-1c03-444c-a45d-c66e4763ca64&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:true,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:38,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:321,&amp;quot;end&amp;quot;:349},&amp;quot;recordId&amp;quot;:&amp;quot;HaLLdH0dGotBJBxauV0curGCn9g&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot; data-lark-record-format=&quot;docx/text&quot; class=&quot;lark-record-clipboard&quot;&gt;&lt;/span&gt;&lt;div&gt;类&lt;/div&gt;" vertex="1">
-          <mxGeometry height="1390" width="240" x="1590" y="144" as="geometry" />
+          <mxGeometry height="1557" width="240" x="1590" y="144" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-97" parent="psfISVITExRORLoa6FlI-83" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="110" width="10" x="115" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-135" parent="psfISVITExRORLoa6FlI-83" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="207" width="10" x="115" y="1347" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-85" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -477,10 +483,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-122" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;" value="&lt;div data-page-id=&quot;YSJqdaEsJoQAVGxiDp5cjCuWn8c&quot; data-lark-html-role=&quot;root&quot; data-docx-has-block-data=&quot;false&quot;&gt;&lt;div class=&quot;old-record-id-HaLLdH0dGotBJBxauV0curGCn9g&quot; style=&quot;white-space: pre;&quot;&gt;ROS2的action机制&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="120" x="851" y="1180" as="geometry" />
+          <mxGeometry height="140" width="120" x="851" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-124" parent="psfISVITExRORLoa6FlI-122" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;" value="" vertex="1">
-          <mxGeometry height="136" width="10" x="55" y="54" as="geometry" />
+          <mxGeometry height="76" width="10" x="55" y="54" as="geometry" />
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-125" edge="1" parent="1" source="psfISVITExRORLoa6FlI-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="psfISVITExRORLoa6FlI-124">
           <mxGeometry relative="1" as="geometry">
@@ -505,17 +511,17 @@
             <mxPoint x="1126" y="1289" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="psfISVITExRORLoa6FlI-128" connectable="0" parent="psfISVITExRORLoa6FlI-127" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="如果状态是立刻执行&lt;div&gt;会继续调用第二个回调&lt;/div&gt;" vertex="1">
+        <mxCell id="psfISVITExRORLoa6FlI-128" connectable="0" parent="psfISVITExRORLoa6FlI-127" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="如果状态是立刻执行&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;会继续&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;调用&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;handle_accepted() 回调&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0798" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="psfISVITExRORLoa6FlI-129" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="&lt;div&gt;handle_accepted() -&amp;gt;&amp;nbsp;work()&lt;/div&gt;&lt;div&gt;进入while循环，调用用户自定义的执行函数execute_callback_()&lt;/div&gt;">
+        <mxCell id="psfISVITExRORLoa6FlI-129" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="psfISVITExRORLoa6FlI-118" value="&lt;div&gt;handle_accepted() -&amp;gt; 异步调用work()：&lt;/div&gt;&lt;div&gt;1. 保存传入的goal句柄；&lt;/div&gt;&lt;div&gt;2. 进入while循环，调用用户自定义的执行函数execute_callback_()；&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="1166" y="1310" />
-              <mxPoint x="1166" y="1340" />
+              <mxPoint x="1166" y="1380" />
             </Array>
             <mxPoint x="1136" y="1310" as="sourcePoint" />
             <mxPoint x="1136" y="1340" as="targetPoint" />
@@ -523,6 +529,43 @@
         </mxCell>
         <mxCell id="psfISVITExRORLoa6FlI-130" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="50" width="10" x="159" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-131" edge="1" parent="1" source="psfISVITExRORLoa6FlI-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="psfISVITExRORLoa6FlI-133">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="1350" />
+              <mxPoint x="820" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-132" connectable="0" parent="psfISVITExRORLoa6FlI-131" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="在&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;bt_navigator&lt;/span&gt;节点中，&lt;div&gt;execute_callback_() 就是外部的 navigateToPose()&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0345" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-134" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="psfISVITExRORLoa6FlI-133" value="&lt;div&gt;navigateToPose()&lt;/div&gt;&lt;div&gt;1. 把目标点写入黑板；&lt;/div&gt;&lt;div&gt;2. 定义处理动作取消的请求的函数is_canceling；&lt;/div&gt;&lt;div&gt;3. 定义处理抢占请求和发布反馈的函数on_loop();&lt;/div&gt;&lt;div&gt;4. 进入核心循环bt_-&amp;gt;run()；&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="740" y="1400" />
+              <mxPoint x="740" y="1480" />
+            </Array>
+            <mxPoint x="710" y="1400" as="sourcePoint" />
+            <mxPoint x="710" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-136" edge="1" parent="1" source="psfISVITExRORLoa6FlI-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="psfISVITExRORLoa6FlI-135">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="1510" />
+              <mxPoint x="1460" y="1510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psfISVITExRORLoa6FlI-137" connectable="0" parent="psfISVITExRORLoa6FlI-136" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="调用核心函数bt_-&amp;gt;run()" vertex="1">
+          <mxGeometry relative="1" x="-0.0268" as="geometry">
+            <mxPoint x="26" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
